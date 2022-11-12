@@ -1,3 +1,7 @@
+if [ $# != 1 ] ; then
+	echo "need comment!"
+	exit 1
+fi
 
 comm=$1
 echo "comm: ${comm}"
