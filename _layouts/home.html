@@ -7,16 +7,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Informal's blog </title>
 		<style>
-html,body{
-	width: 500px;
-	margin: 0 auto;
-	text-align: left;
-    font-size: 20px;
-}
+			html,body{
+				width: 500px;
+				margin: 0 auto;
+				text-align: left;
+				font-size: 20px;
+			}
 		</style>
 	</head>
-
-	<section class="body">
+	<body class="body">
 		<ul>
 			{% for post in site.posts %}
 			<li>
@@ -25,7 +24,7 @@ html,body{
 			</li>
 			{% endfor %}
 		</ul>
-	</section>
+	</body>
 </html>
 <div>
 	{%- include footer.html -%}

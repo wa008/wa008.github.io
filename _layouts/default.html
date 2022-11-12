@@ -7,20 +7,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.title }}</title>
 		<style>
-html,body{
-	max-width: 1000px;
-	margin: 0 auto;
-	text-align: left;
-}
+			html,body{
+				max-width: 1000px;
+				margin: 0 auto;
+				text-align: left;
+			}
 		</style>
 	</head>
-
-	<section class="body">
+	<body class="body">
 		<div> 
 			<h1>{{ page.title }}</h1>
 			{{ content }} 
 		</div>
-	</section>
+	</body>
 </html>
 <div>
 	{%- include footer.html -%}
