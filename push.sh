@@ -9,5 +9,6 @@ echo "comm: ${comm}"
 git pull
 
 git add *
+git status 
 git commit -m "$comm"
 git push origin main
