@@ -20,7 +20,7 @@
 			{% for post in site.posts %}
 			<li>
 				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				<a href="{{ site.baseurl }}{{ post.url }}">&#9 {{ post.title }}</a>
 			</li>
 			{% endfor %}
 			<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
