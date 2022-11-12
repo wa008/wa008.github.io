@@ -4,7 +4,7 @@ if [ $# != 1 ] ; then
 fi
 
 comm=$1
-echo "comm: ${comm}"
+echo "comment: ${comm}"
 
 git pull
 
