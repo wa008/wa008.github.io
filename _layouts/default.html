@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html>
+<<<<<<< HEAD
 	{%- include header.html -%}
 	<head>
 		<meta charset="UTF-8">
@@ -24,4 +26,32 @@ html,body{
     <div>
     	{%- include footer.html -%}
     </div>
+=======
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        html,body{
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: left;
+        }
+    </style>
+  </head>
+
+<section>
+    <div class="body"> 
+	  {%- include header.html -%}
+      <h1>{{ page.title }}</h1>
+      {{ content }} 
+    </div>
+    <div>
+		{%- include footer.html -%}
+    </div>
+</section>
+
+>>>>>>> parent of 64f7c7b (format)
 </html>
