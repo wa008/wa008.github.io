@@ -7,7 +7,9 @@ title: AtCoder Beginner Contest 268
 
 # E - Chinese Restaurant (Three-Star Version)
 题目链接：https://atcoder.jp/contests/abc268/tasks/abc268_e
+
 问题：n个人围在一个圆桌上，每人前面有一个带有编号的盘子，p[i] 代表第i个人前面盘子的编号，编号范围[0, n-1]，不重复，每个人的惩罚为跟自己有相同编号的盘子和自己之间的距离。你可以顺时针移动所有盘子任意次（保证盘子之间的相对顺序不变），使得所有人的总惩罚最小，问最小惩罚是多少？
+
 案例：如下图，顺时针移动3个单位获得最小惩罚，惩罚为2
 
 <img src="/images/2022/09/3858270034.png" width=500>
@@ -17,18 +19,27 @@ title: AtCoder Beginner Contest 268
 <img src="/images/2022/09/3215677101.png" width=300>
 
 初始的惩罚可以在 O(N) 复杂度内计算，每次移动时，可以根据前缀和求得实际距离在两个区间内的人数，每次移动的复杂度为 O(1)，则整体的时间复杂度为 O(N)
+
 代码：https://atcoder.jp/contests/abc268/submissions/34763908
 
 # F - Best Concatenation
 题目链接：https://atcoder.jp/contests/abc268/tasks/abc268_f
 描述：定义字符串只包含 0-9 和 'X'，每个字符串的得分为：针对每个不为 'X' 的字符，当前得分为该字符左侧 'X' 的数量 \* 当前字符的数字大小，对每个得到求和即为字符串得分，比如 "XXX1X359" 的得分为 3 \* 1 + 4 \* 3 + 4 \* 5 + 4 \* 9 = 71。
+
 给定n个字符串，将n个字符串随意排列后拼接，使得拼接后的新字符串得分最大。
+
 案例：给定三个字符串
+
 1X3
+
 59
+
 XXX
+
 得分最大的拼接方式为：XXX1X359，最大得分71
+
 思路：按照得分逻辑，对所有字符串进行排序，排序后的顺序即为使得得分最大的顺序。 如果只有两个字符串，比较好理解，那多个为什么也满足这个逻辑呢？盲猜的，不知道要怎么证明。。。
+
 代码：https://atcoder.jp/contests/abc268/submissions/34774715
 
 # 小结
