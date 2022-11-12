@@ -13,18 +13,18 @@
     </style>
   </head>
 
-    <section class="posts">
-        <h3>Informal's blog</h3>
-        <ul>
-            {% for post in site.posts %}
-            <li>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </section>
-    <div>
-		{%- include social.html -%}
-    </div>
+  <section class="posts">
+      <h1>Informal's blog</h1>
+      <ul>
+          {% for post in site.posts %}
+          <li>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+      </ul>
+  </section>
+  <div>
+  	{%- include social.html -%}
+  </div>
 </html>
