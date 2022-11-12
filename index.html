@@ -9,6 +9,9 @@ layout: default
         <li>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <style> 
+              body{text-align:center} 
+            </style> 
         </li>
         {% endfor %}
     </ul>
