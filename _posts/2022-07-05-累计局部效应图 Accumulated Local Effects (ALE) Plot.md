@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 累计局部效应图 Accumulated Local Effects (ALE) Plot
+title: 累计局部效应图 Accumulated Local Effects Plot
 ---
 
 # 从PDP优化
