@@ -4,7 +4,7 @@ title: 特殊的日子
 ---
 
 # 博客迁移
-博客从 Typecho 迁移到了 github 上，新博客[地址](www.informal.top)
+博客从 Typecho 迁移到了 github 上，新博客[地址](informal.top)
 
 搭建的 Typecho 博客到期了，服务器续费一个月80，域名续费一年29，服务器杀熟太狠了，所以只续了域名。
 
