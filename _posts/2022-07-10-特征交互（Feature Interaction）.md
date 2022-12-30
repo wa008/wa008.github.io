@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 特征交互（Feature Interaction）
+title: 特征交互
 ---
 
 # 介绍
