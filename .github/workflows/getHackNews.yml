@@ -20,3 +20,4 @@ jobs:
             file: _topHackNews/data/
             repo_token: ${{ secrets.GITHUB_TOKEN }}
             tag: refs/heads/topHackNews
+            overwrite: true
