@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Run getHackNews'
-        run: sh ./_topHackNews/runHackNews.sh
+        run: "sh ./_topHackNews/runHackNews.sh"
+      - name: Upload files to a GitHub release
+        uses: svenstaro/upload-release-action@2.7.0
