@@ -13,7 +13,7 @@ jobs:
       - name: 'Run getHackNews'
         run: "bash ./_topHackNews/runHackNews.sh"
       - name: 'Run ls'
-        run: "ls"
+        run: "ls _topHackNews/data/"
       - name: Upload files to a GitHub release
         uses: svenstaro/upload-release-action@2.7.0
         with:
