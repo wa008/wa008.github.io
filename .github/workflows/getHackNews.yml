@@ -6,18 +6,21 @@ on:
     - cron: '* * * * *'
 
 jobs:
-  bot:
+  build:
+    name: "add hackNews"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: 'Run getHackNews'
         run: "bash ./_topHackNews/runHackNews.sh"
       - name: 'Run ls'
         run: "ls _topHackNews/data/"
       - name: Upload files to a GitHub release
-        uses: svenstaro/upload-release-action@2.7.0
+        uses: svenstaro/upload-release-action@2
         with:
-            file: _topHackNews/data/
             repo_token: ${{ secrets.GITHUB_TOKEN }}
+            file: _topHackNews/data/pre
+            asset_name: pre
             tag: refs/heads/topHackNews
             overwrite: true
+            body: "This is my release text"

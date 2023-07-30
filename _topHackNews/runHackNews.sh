@@ -25,7 +25,8 @@ done
 
 if [[ ${exist} -eq 0 ]]
 then 
-    story_file_name=${time}-${story}
+    # story_file_name=${time}-${story}
+    story_file_name="pre"
     echo ${story_file_name}
     curl https://hacker-news.firebaseio.com/v0/item/${story}.json?print=pretty > ./_topHackNews/data/${story_file_name}
     echo "${story} write done"
