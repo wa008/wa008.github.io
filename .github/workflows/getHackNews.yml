@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: 'Run'
-        run: ls
       - name: 'Run getHackNews'
         run: "sh ./_topHackNews/runHackNews.sh"
       - name: Upload files to a GitHub release
         uses: svenstaro/upload-release-action@2.7.0
+        with:
+            file: _topHackNews/data/*
+            repo_token: ${{ secrets.GITHUB_TOKEN }}
