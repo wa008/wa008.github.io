@@ -24,5 +24,5 @@ else
 fi
 
 git commit -m "$comm"
-# git tag -d main
+git tag -d main
 git push origin main

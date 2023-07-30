@@ -11,16 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
       - name: 'Run getHackNews'
         run: "bash ./_topHackNews/runHackNews.sh"
       - name: 'Run ls'
         run: "ls _topHackNews/data/"
-      - name: 'add'
-        run: "git add _topHackNews/data/*"
-      - name: 'add'
-        run: "git commit -m 'add top story'"
-      - name: 'add'
-        run: "git push origin main"
+      - name: Commit report
+        run: |
+          git config --global user.name 'wa007'
+          git config --global user.email '2864436211@qq.com'
+          git add _topHackNews/data/*
+          git commit -am "add top story"
+          git push origin main
       
       # - name: Upload files to a GitHub release
       #   uses: svenstaro/upload-release-action@2.7.0
