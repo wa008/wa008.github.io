@@ -15,5 +15,6 @@ jobs:
       - name: Upload files to a GitHub release
         uses: svenstaro/upload-release-action@2.7.0
         with:
-            file: _topHackNews/data/*
+            file: ./_topHackNews/data/*
             repo_token: ${{ secrets.GITHUB_TOKEN }}
+            tag: refs/heads/topHackNews
