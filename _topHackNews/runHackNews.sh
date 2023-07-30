@@ -33,8 +33,6 @@ then
     git status
     git add ./_topHackNews/data/${story_file_name}
     git status
-    git commit -m "${story} write done"
-    git status
 else 
     echo "${story} already exist"
 fi
