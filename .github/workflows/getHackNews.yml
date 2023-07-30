@@ -9,6 +9,9 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: 'Run'
+        run: | ls
       - name: 'Run getHackNews'
         run: "sh ./_topHackNews/runHackNews.sh"
       - name: Upload files to a GitHub release
