@@ -8,8 +8,8 @@ ls
 
 exist=0
 index=0
-for file in ./_topHackNews/data/*
-do
+for file in ./_topHackNews/data/* 
+do 
     if [[ ${index} -ge 3 ]]
     then 
         break 
