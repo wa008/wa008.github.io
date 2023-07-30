@@ -9,6 +9,7 @@ echo "comment: ${comm}"
 git pull
 
 git add *
+git add ./.github/*
 git status 
 
 echo "check commit... Yes or No"
