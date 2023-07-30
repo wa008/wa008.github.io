@@ -4,6 +4,7 @@ time=`date '+%Y%m%d-%H%M%S'`
 
 url="https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
 story=`curl ${url} | awk -F ",| " '{print $2}'`
+ls
 
 exist=0
 index=0
