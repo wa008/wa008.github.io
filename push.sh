@@ -23,5 +23,7 @@ else
     echo "Yes, continue"
 fi
 
+git tag -d main
+
 git commit -m "$comm"
 git push origin main
