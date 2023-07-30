@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 {%- include header.html -%}
 
-
 <html>
-<body>
-
-<script>
-document.write("abc\ndef");
-async function ls(path) {
-	const dir = await fs.promises.opendir(path)
-	for await (const dirent of dir) {
-		console.log(dirent.name)
-		document.write(dirent.name + "\n") 
-	}
-	return res
-}
-res = ls('.').catch(console.error)
-
-</script>
-
+<body class="body">
+	<ul>
+		{% for post in site.topHackNews.data %}
+		<li>
+			<p>{{ content }}</p>
+		</li>
+	</ul>
 </body>
 </html>
