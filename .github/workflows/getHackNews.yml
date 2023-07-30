@@ -10,9 +10,9 @@ jobs:
     name: "add hackNews"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GO_TOKEN }}
+          token: ${{ secrets.GO_TOKEN || secrets.MY_TOKEN || github.token || secrets.GITHUB_TOKEN }}
       - name: 'Run getHackNews'
         run: "bash ./_topHackNews/runHackNews.sh"
       - name: 'Run ls'
