@@ -1,3 +1,5 @@
+# /usr/bin/bash
+
 time=`date '+%Y%m%d-%H%M%S'`
 
 url="https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
