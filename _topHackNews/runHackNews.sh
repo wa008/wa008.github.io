@@ -34,4 +34,5 @@ then
     git status
 else 
     echo "${story} already exist"
+    date > ./_topHackNews/data/timestamp
 fi
