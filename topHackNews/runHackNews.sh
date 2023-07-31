@@ -1,6 +1,6 @@
 # /usr/bin/bash
 
-time=`date '+%Y%m%d-%H%M%S'`
+time=`date '+%Y-%m-%d-%H%M%S'`
 
 url="https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
 story=`curl ${url} | awk -F ",| " '{print $2}'`
@@ -14,7 +14,7 @@ do
     then 
         break 
     fi 
-    history_story=`echo ${file} | awk -F '-' '{print $3}'`
+    history_story=`echo ${file} | awk -F '-' '{print $3}' | awk -F '.' '{print $1}'`
     echo "history_story: ${history_story}"
     echo "story: ${story}"
     if [[ "${history_story}" == "${story}" ]]
@@ -27,7 +27,7 @@ done
 
 if [[ ${exist} -eq 0 ]]
 then 
-    story_file_name=${time}-${story}
+    story_file_name="${time}-${story}.md"
     echo ${story_file_name}
     curl https://hacker-news.firebaseio.com/v0/item/${story}.json?print=pretty > ./topHackNews/_posts/${story_file_name}
     echo "${story} write done"
