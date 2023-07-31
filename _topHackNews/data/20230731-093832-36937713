@@ -1,0 +1,11 @@
+{
+  "by" : "nateb2022",
+  "descendants" : 116,
+  "id" : 36937713,
+  "kids" : [ 36938789, 36939777, 36938156, 36939142, 36939773, 36938793, 36938246, 36938526, 36939570, 36938857, 36939480, 36938168, 36939204, 36940037, 36940015, 36938193, 36938373, 36938211 ],
+  "score" : 268,
+  "time" : 1690764691,
+  "title" : "Conduit: Simple, fast and reliable chat server powered by Matrix",
+  "type" : "story",
+  "url" : "https://conduit.rs/"
+}
