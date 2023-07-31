@@ -1,1 +1,4 @@
-<center># Top Hack News</center>
+---
+layout: topHackNews
+---
+
