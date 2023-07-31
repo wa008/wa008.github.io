@@ -24,7 +24,6 @@ do
     fi
     let index++
 done
-exit 1
 
 if [[ ${exist} -eq 0 ]]
 then 
@@ -32,11 +31,7 @@ then
     echo ${story_file_name}
     curl https://hacker-news.firebaseio.com/v0/item/${story}.json?print=pretty > ./topHackNews/_posts/${story_file_name}
     echo "${story} write done"
-    git status
-    git add ./_topHackNews/data/${story_file_name}
-    git status
 else 
     echo "${story} already exist"
-    date > ./_topHackNews/data/timestamp
+    date > ./topHackNews/_posts/timestamp
 fi
-
