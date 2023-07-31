@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<header>
+	<center><font size="6"><a>Top Hack News</a></font></center>
+</header>  
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Informal's blog </title>
+		<style>
+			html,body{
+				max-width: 800px;
+				margin: 0 auto;
+				text-align: left;
+				font-size: 20px;
+				font-family: 'Helvetica Neue';
+				line-height: 30px;
+			}
+		</style>
+	</head>
+	<body class="body">
+		<ul id="hacknews">
+			{% for post in site.categories.tophacknews %}
+			<p> {{post.content}} </p>
+			{% endfor %}
+		</ul>
+		<script>
+			var x = 1;
+			for (child of document.getElementById("hacknews").children) {
+				var res = child.innerText;
+				res = res.replaceAll('”', '"');
+				res = res.replaceAll('“', '"');
+				if(res.length > 10) {
+					let myMap = JSON.parse(res);
+					link = myMap.url;
+
+					var date_ob = new Date(myMap.time * 1000 + 28800000);
+					month = '' + (date_ob.getMonth() + 1),
+					day = '' + date_ob.getDate(),
+					year = date_ob.getFullYear();
+					if (month.length < 2) 
+						month = '0' + month;
+					if (day.length < 2) 
+						day = '0' + day;
+					
+					full_day = year + "-" + month + "-" + day
+					content = full_day + ": " + myMap.title.link(link);
+					child.innerHTML = content;
+				}
+			}
+		</script>
+	</body>
+</html>
+
