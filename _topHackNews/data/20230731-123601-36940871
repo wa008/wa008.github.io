@@ -1,0 +1,11 @@
+{
+  "by" : "mattip",
+  "descendants" : 25,
+  "id" : 36940871,
+  "kids" : [ 36941561, 36941288, 36941584, 36941067, 36941181, 36941110, 36941260, 36941215, 36941492, 36941374, 36941352, 36941281, 36941646, 36941307, 36941121, 36941248 ],
+  "score" : 155,
+  "text" : "I have been the release manager for PyPy, an alternative Python interpreter with a JIT [0] since 2015, and have done a lot of work to make it available via conda-forge [1] or by direct download [2]. This includes not only packaging PyPy, but improving on an entire C-API emulation layer so that today we can run (albeit more slowly) almost the entire scientific python data stack. We get very limited feedback about real people using PyPy in production or research, which is frustrating. Just keeping up with the yearly CPython release cycle is significant work. Efforts to improve the underlying technology needs to be guided by user experience, but we hear too little to direct our very limited energy. If you are using PyPy, please let us know, either here or via any of the methods listed in [3].<p>[0] https:&#x2F;&#x2F;www.pypy.org&#x2F;contact.html\n[1] https:&#x2F;&#x2F;www.pypy.org&#x2F;posts&#x2F;2022&#x2F;11&#x2F;pypy-and-conda-forge.html\n[2] https:&#x2F;&#x2F;www.pypy.org&#x2F;download.html\n[3] https:&#x2F;&#x2F;www.pypy.org&#x2F;contact.html",
+  "time" : 1690800818,
+  "title" : "Is anyone using PyPy for real work?",
+  "type" : "story"
+}
