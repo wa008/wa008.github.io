@@ -33,5 +33,5 @@ then
     echo "${story} write done"
 else 
     echo "${story} already exist"
-    date > ./topHackNews/_posts/timestamp
+    date > ./topHackNews/_posts/2020-timestamp
 fi
