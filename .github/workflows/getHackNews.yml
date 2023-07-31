@@ -12,13 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: 'Run getHackNews'
-        run: "bash ./_topHackNews/runHackNews.sh"
-      - name: 'Run ls'
-        run: "ls _topHackNews/data/"
+        run: "bash ./topHackNews/runHackNews.sh"
       - name: Commit report
         run: |
           git config --global user.name 'wa007'
           git config --global user.email '2864436211@qq.com'
-          git add _topHackNews/data/*
+          git add topHackNews/_posts/*
           git commit -am "add top story"
           git push origin main
