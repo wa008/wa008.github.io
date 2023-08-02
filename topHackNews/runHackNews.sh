@@ -14,7 +14,7 @@ do
     then 
         break 
     fi 
-    history_story=`echo ${file} | awk -F '-' '{print $5} | awk -F '.' '{print $1}'`
+    history_story=`echo ${file} | awk -F '-' '{print $5}' | awk -F '.' '{print $1}'`
     echo "history_story: ${history_story}"
     echo "story: ${story}"
     if [[ "${history_story}" == "${story}" ]]
