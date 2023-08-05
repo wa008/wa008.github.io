@@ -1,5 +1,7 @@
 markdown: kramdown
 
+on: push
+
 plugins:
   - jekyll-feed
 
