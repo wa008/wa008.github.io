@@ -2,6 +2,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-    feed:
-      category:
-        - blog
+feed: 
+  path: feed.xml
+  categories:
+    - blog
