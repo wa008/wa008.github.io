@@ -4,10 +4,3 @@ on: push
 
 plugins:
   - jekyll-feed
-
-feed:
-    category:
-      - blog
-    multifeed:
-      - blog
-
