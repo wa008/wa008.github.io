@@ -4,5 +4,5 @@ plugins:
   - jekyll-feed
 
 feed:
-  categories:
+  category:
     - blog
