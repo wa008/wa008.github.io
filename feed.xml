@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.categories.blog.title }}</title>
+    <description>{{ site.categories.blog.description }}</description>
+    <link>{{ site.categories.blog.url }}</link>
+    <lastBuildDate>{{ site.categories.blog.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.categories.blog.time | date_to_rfc822 }}</pubDate>
+    <ttl>1800</ttl>
+    {% for post in site.categories.blog %}
+    {% if post.title %}
+    <item>
+      <title>{{ post.title }}</title>
+      <description>{{ post.description }}</description>
+      <link>{{ site.categories.blog.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.categories.blog.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    </item>
+    {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
