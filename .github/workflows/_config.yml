@@ -4,24 +4,8 @@ plugins:
   - jekyll-feed
 
 feed:
-    categories:
+    category:
       - blog
     multifeed:
       - blog
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      category: blog
-      layout: blogpost
-      show_disqus: true
-      pinned: false
-      indexed: true
-  -
-    scope:
-      path: "blog/rss"
-    values:
-      indexed: false
