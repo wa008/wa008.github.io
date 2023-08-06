@@ -4,4 +4,3 @@ plugins:
   - jekyll-feed
 feed:
   - blog
-  - Blog
