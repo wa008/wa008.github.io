@@ -1,4 +1,4 @@
 ---
-layout: topHackNews
+layout: tophacknews
 ---
 
