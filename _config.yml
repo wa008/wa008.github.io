@@ -3,4 +3,5 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 feed:
-  - blog
+  categories:
+    - blog
