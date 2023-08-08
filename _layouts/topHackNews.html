@@ -31,6 +31,7 @@
 			var x = 1;
 			for (child of document.getElementById("hacknews").children) {
 				var res = child.innerText;
+				child.innerHTML = "";
 				res = res.replaceAll('”', '"');
 				res = res.replaceAll('“', '"');
 				if(res.length > 10) {
