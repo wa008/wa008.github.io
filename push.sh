@@ -6,7 +6,13 @@ fi
 comm=$1
 echo "comment: ${comm}"
 
-git pull
+git pull --rebase --autostash
+if [ $? != 0 ] ; then
+	echo "git pull, error"
+	exit 1
+else
+    echo "git pull scuess, continue"
+fi
 
 git add *
 git add ./.github/*
