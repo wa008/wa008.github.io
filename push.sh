@@ -1,17 +1,17 @@
 if [ $# != 1 ] ; then
-	echo "need comment!"
+	echo -e 'need comment!\n'
 	exit 1
 fi
 
 comm=$1
-echo "comment: ${comm}"
+echo 'comment: ${comm}\n'
 
 git pull --rebase --autostash
 if [ $? != 0 ] ; then
-	echo "git pull, error"
+	echo 'git pull, error\n'
 	exit 1
 else
-    echo "git pull scuess, continue"
+    echo 'git pull scuess, continue\n'
 fi
 
 git add *
@@ -20,13 +20,13 @@ git status
 
 echo "check commit... Yes or No"
 echo "Yes : 1"
-echo "No  : 0"
+echo 'No  : 0\n'
 read flag
 if [ $flag != 1 ] ; then
-	echo "No, exit"
+	echo 'No, exit\n'
 	exit 1
 else
-    echo "Yes, continue"
+    echo 'Yes, continue\n'
 fi
 
 git commit -m "$comm"
