@@ -4,7 +4,7 @@ if [ $# != 1 ] ; then
 fi
 
 comm=$1
-echo 'comment: ${comm}\n'
+echo "comment: ${comm}\n"
 
 git pull --rebase --autostash
 if [ $? != 0 ] ; then
