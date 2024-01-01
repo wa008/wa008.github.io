@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 新的一年
+title: 2024-01-01
 ---
 
 # 回顾
