@@ -1,6 +1,6 @@
 ---
 layout: default
-title: leanring egnlish in April
+title: learning egnlish in April
 ---
 
 I start writing something again on my blog platform. 
