@@ -26,3 +26,14 @@ Chaoyang park is the biggest park in the east of beijing, The day before yesterd
 In my previous thought, I should wirte nature view about the park topic. But I write many my thought about the society and life, writing is so great way to help people to deeply think, and it's not hard to do that. I should insist on that. I can talk more nature view next time. 
 
 Now is half past ten, it's time to make lunch.
+
+# 4.27
+
+Writing is good habit. It will be great if I can write something everyday about today before go to sleep. As I readed from twitter, There is no smart people in the world, just the prople who have some good habit.
+
+Yesterday, I receive the bone conduction headphones I buy from xianyu platform which is a platform for buying and selling old thing that owner don't need. It not only support song which is storage in itself, but also can connect Phone by bluetooth as a general headphones. I can listen the sound from environment at the same time when I'm listening the sound from headphones. It's a great tool for me when I do some sport like running, swimming, riding. It not only make my enjoy the music, when some bad thing happend and make some sound, I can listen that sound and responce to make me safer.
+
+Afternoon, I go to company to sovle the last question from my colleague who take my previous work. As same as the old situation, there are so much little thing they must solve, I have the old and similar feelings, It seems that I back to work again.
+
+In the evening, I have dinner with some fiends who were my colleagues two years ago, everyone have their different path to future. Talking is always making people happy.
+One of my colleague give me some advice about my path to canada, there are so much uncertainty about my future, I have concern too, Anyway, I think I should have a try.
