@@ -37,3 +37,7 @@ Afternoon, I go to company to sovle the last question from my colleague who take
 
 In the evening, I have dinner with some fiends who were my colleagues two years ago, everyone have their different path to future. Talking is always making people happy.
 One of my colleague give me some advice about my path to canada, there are so much uncertainty about my future, I have concern too, Anyway, I think I should have a try.
+
+The only require from my university about my ielts is overall score, they don't have special require for more specific test score, like speaing, listening, reading, writing. So I start take the ielts test question which is the really question in ielts in the past again.
+
+In the evening, I go to run as the day before yesterday, the running people less than last, maybe because today is Saturday.
