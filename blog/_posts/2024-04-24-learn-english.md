@@ -41,3 +41,27 @@ One of my colleague give me some advice about my path to canada, there are so mu
 The only require from my university about my ielts is overall score, they don't have special require for more specific test score, like speaing, listening, reading, writing. So I start take the ielts test question which is the really question in ielts in the past again.
 
 In the evening, I go to run as the day before yesterday, the running people less than last, maybe because today is Saturday.
+
+# 4.28
+
+**ielts writing test**
+
+It is important for children to understand the difference between right and wrong at the early age. Punishment is necessary to help them learn this distinction.
+
+I total agree with that it is necessary to punish children to make them distingush the right thing and wrong thing when they are young. 
+
+Firstly, the teacher and parents should give some small punishment to children to make them understand that they do wrong thing. For exmaple, if they waste food when eating or make the desk, floor dirty on purpose, techer and parents can stop them and tell them that is wrong. food is precious resource in the world, it is wrong to waste them. dirty floor will make other person easily get sick and give more work to cleaner. Teacher and parents can let children read relative books and tell right thing to them, ever more, they can give some small tasks relative to food and cleaning, that can help children understand the value of food and cleaning.
+
+Secondly, the prupose of punishment should be make children understand the right thing better. At the same time, punishment should be achieveable for children. Teacher and parents can do the punishment to children if it can meet the two condition.
+
+Finally, if techers and parents don't give punishment to children, it is hard to make children understand and remember what they are doing is wrong when they do wrong thing. The effective and appropriate punishment is a suitable way to make children understand wrong thing and help them avoid that when they meet the similar thing again.
+
+In summary, appropriate punishment is absolute/definately necessary to help children distinguish the right thing and wrong thing, techer and parents can use them to educate children and make them better.
+
+The toppic todya is hard, I don't think I can get a high score if it is the real test. The answer have the different opinion with me, so it doesn't have much value for my answer.
+
+**today**
+
+Today, I spend most of my time on reddit and discord, I want improve my english commucation skill by chatting with english speaker. After trying about four hours, I find I don't have much content or question to chat or share, at the same time, it is not very efficient to learn english compared to reading english artical and wrting egnlish blog or ielts test.
+
+For chatting with english speaker, the more important point is find what topic do I like most. After I have a discuss in a topic that I'm skilled and interested in, that is possible that discuss can last longer and be deeper. coding is obvious a good thing to do. codeforces, advant of code, llm.c are good options for me. I should pick one to start tomorrow.
