@@ -65,3 +65,9 @@ The toppic todya is hard, I don't think I can get a high score if it is the real
 Today, I spend most of my time on reddit and discord, I want improve my english commucation skill by chatting with english speaker. After trying about four hours, I find I don't have much content or question to chat or share, at the same time, it is not very efficient to learn english compared to reading english artical and wrting egnlish blog or ielts test.
 
 For chatting with english speaker, the more important point is find what topic do I like most. After I have a discuss in a topic that I'm skilled and interested in, that is possible that discuss can last longer and be deeper. coding is obvious a good thing to do. codeforces, advant of code, llm.c are good options for me. I should pick one to start tomorrow.
+
+# 2.29
+
+I start solve problem on [advant of code](https://adventofcode.com/), 2023 25 is the last question on this website and I try it first, I have never thought it will be so hard for me. This is a problem about gragh, I spend the entir afternoon and can't find a way to solve that. This is a similar feeling, reming me the time I prepare the icpc acm contest in 2018.
+
+Of course, I don't learn any english about ielts today, bad thing!
