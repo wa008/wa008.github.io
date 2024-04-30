@@ -71,3 +71,7 @@ For chatting with english speaker, the more important point is find what topic d
 I start solve problem on [advant of code](https://adventofcode.com/), 2023 25 is the last question on this website and I try it first, I have never thought it will be so hard for me. This is a problem about gragh, I spend the entir afternoon and can't find a way to solve that. This is a similar feeling, reming me the time I prepare the icpc acm contest in 2018.
 
 Of course, I don't learn any english about ielts today, bad thing!
+
+# 2.30
+
+The advent of code problem I picked is hard for me, that nedd a algorithm named Karger algorithm, I try to learn and write code to describe this algorithm, in one of test, I test code with vim, I delete the code that I speed two hours to wirte and it can't recover, I hate vim much at that moment. After that, I still don't find a good way to recover code after close vim. But what i learned is that i should return to console from vim by click ctrl+z, and click f+g to return vim edit, what I update can be recover base on this behavior, this is not a perfect solution but it can solve problem at some times. The real solution is be careful when I update code.
