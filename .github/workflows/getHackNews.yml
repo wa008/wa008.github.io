@@ -3,7 +3,8 @@ name: getHackNews
 on:
   # push:
   schedule:
-    - cron: '0 0 * * *'
+  # Temporarily closed
+  # - cron: '0 0 * * *'
 
 jobs:
   build:
