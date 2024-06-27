@@ -17,7 +17,7 @@ jobs:
       - name: Commit report
         run: |
           git config --global user.name 'wa007'
-          git config --global user.email '2864436211@qq.com'
+          git config --global user.email 'hzp1024@qq.com'
           git add topHackNews/_posts/*
           git commit -am "add Hack News top story"
           git push origin main
