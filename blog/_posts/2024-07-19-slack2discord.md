@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 迁移历史slack记录到discord
+title: slack迁移discord
 ---
 
 # 背景
