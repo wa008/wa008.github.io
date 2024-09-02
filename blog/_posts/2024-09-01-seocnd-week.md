@@ -1,6 +1,6 @@
 ---
 layout: default
-title: second product of my indie development #2
+title: second product
 ---
 
 # Product process
