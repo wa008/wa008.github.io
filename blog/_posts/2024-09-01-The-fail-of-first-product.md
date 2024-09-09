@@ -1,6 +1,6 @@
 ---
 layout: default
-title: second product
+title: Weekly-#2 The fail of first product
 ---
 
 # Product process

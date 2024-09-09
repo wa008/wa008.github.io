@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First week of indie develop
+title: Weekly-#1 First week of indie develop
 ---
 
 # Backgroud
