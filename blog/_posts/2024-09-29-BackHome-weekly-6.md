@@ -24,11 +24,17 @@ This is almost the end of stage 1 and must pay about $50 in the end of the month
 After I pubslished PopTranslate two week, the data is already stable, it shows as below:
 
 > active users: 18
+
 > change: $27.12
+
 > requests: 11k
+
 > average requests: 611
+
 > average characters per requests: 61
+
 > average QPS: 0.12
+
 > Google translation API price: $20/500k characters
 
 of course it's too expensive even I make the extension paid for user. so, I must tranfer it to self hosted service. 
