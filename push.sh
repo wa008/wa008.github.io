@@ -14,8 +14,9 @@ else
     echo 'git pull scuess, continue\n'
 fi
 
-git add *
+git add ./_posts/*
 git add ./.github/*
+git add ./images/*
 git status 
 
 echo "check commit... Yes or No"
