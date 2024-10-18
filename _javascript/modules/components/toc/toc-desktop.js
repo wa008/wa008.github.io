@@ -7,8 +7,8 @@ export class TocDesktop {
     headingSelector: 'h1, h2, h3, h4',
     orderedList: false,
     scrollSmooth: false,
-    headingsOffset: 16 * 2 // 2rem
-    collapseDepth: 6,
+    /* headingsOffset: 16 * 2, // 2rem */
+    collapseDepth: 6
   };
 
   static refresh() {
