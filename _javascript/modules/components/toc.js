@@ -13,7 +13,7 @@ function refresh(e) {
 }
 
 function init() {
-  if (document.querySelector('main>article[data-toc="false"]') === null) {
+  if (document.querySelector('main>article[data-toc="true"]') === null) {
     return;
   }
 
