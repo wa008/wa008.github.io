@@ -18,7 +18,7 @@ export class TocMobile {
   static options = {
     tocSelector: '#toc-popup-content',
     contentSelector: '.content',
-    headingSelector: 'h1, h2, h3, h4',
+    headingSelector: 'h2, h3, h4',
     orderedList: false,
     scrollSmooth: false,
     collapseDepth: 6,
