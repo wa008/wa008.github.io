@@ -16,7 +16,15 @@ function init() {
   if (document.querySelector('main>article[data-toc="true"]') === null) {
     return;
   }
-
+  tocbot.init({
+        tocSelector: '#toc',
+        contentSelector: '.content',
+        ignoreSelector: '[data-toc-skip]',
+        headingSelector: 'h1, h2, h3, h4',
+        orderedList: false,
+        scrollSmooth: false,
+        collapseDepth: 6,
+  });
   // Avoid create multiple instances of Tocbot. Ref: <https://github.com/tscanlin/tocbot/issues/203>
   if (desktopMode.matches) {
     desktop.init();
