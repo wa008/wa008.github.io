@@ -19,25 +19,9 @@ function init() {
   
   // Avoid create multiple instances of Tocbot. Ref: <https://github.com/tscanlin/tocbot/issues/203>
   if (desktopMode.matches) {
-    desktop.init({
-        tocSelector: '#toc',
-        contentSelector: '.content',
-        ignoreSelector: '[data-toc-skip]',
-        headingSelector: 'h1, h2, h3, h4',
-        orderedList: false,
-        scrollSmooth: false,
-        collapseDepth: 6,
-    });
+    desktop.init();
   } else {
-    mobile.init({
-        tocSelector: '#toc',
-        contentSelector: '.content',
-        ignoreSelector: '[data-toc-skip]',
-        headingSelector: 'h1, h2, h3, h4',
-        orderedList: false,
-        scrollSmooth: false,
-        collapseDepth: 6,
-    });
+    mobile.init();
   }
 
   desktopMode.onchange = refresh;
