@@ -42,7 +42,7 @@ for a, b in model_graph.edge_list:
 
 ### what torchview view can't so far
 
-Attention: there are much softmax or activation functions in general model, the only three consecutive matrix multiplication is $(maxtrix_intput * W_q) * (maxtrix_intput * W_k)$, but it can not be optimized because there is no much difference between $d_input$ and $d_hidden$.
+Attention: there are much softmax or activation functions in general model, the only three consecutive matrix multiplication is `(maxtrix_intput * W_q) * (maxtrix_intput * W_k)`, but it can not be optimized because there is no much difference between $d_input$ and $d_hidden$.
 
 Parse module: torchview can not parse the specific module so far, there are so much special case in module, like [llamaAttention](https://github.com/huggingface/transformers/blob/b54109c7466f6e680156fbd30fa929e2e222d730/src/transformers/models/llama/modeling_llama.py#L273). But, if we have specific input data, it can follow a specific path to execute the code, it seems that torchview works in this way because input data or input size is necessary for torchview, I didn't research much more about that.
 
