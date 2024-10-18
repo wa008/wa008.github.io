@@ -3,11 +3,10 @@ export class TocDesktop {
   static options = {
     tocSelector: '#toc',
     contentSelector: '.content',
-    /* ignoreSelector: '[data-toc-skip]', */ 
     headingSelector: 'h1, h2, h3, h4',
     orderedList: false,
     scrollSmooth: false,
-    /* headingsOffset: 16 * 2, // 2rem */
+    headingsOffset: 16 * 2, // 2rem
     collapseDepth: 6
   };
 
