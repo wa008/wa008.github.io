@@ -18,12 +18,12 @@ export class TocMobile {
   static options = {
     tocSelector: '#toc-popup-content',
     contentSelector: '.content',
-    ignoreSelector: '[data-toc-skip]',
-    headingSelector: 'h2, h3, h4',
+    /* ignoreSelector: '[data-toc-skip]', */
+    headingSelector: 'h1, h2, h3, h4',
     orderedList: false,
     scrollSmooth: false,
-    collapseDepth: 4,
-    headingsOffset: this.barHeight
+    collapseDepth: 6,
+    headingsOffset: this.barHeight    
   };
 
   static initBar() {
