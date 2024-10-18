@@ -1,7 +1,7 @@
 ---
 title: Acceleration of LLM - Matrix Multiplication
 tags: [LLM, acceleration, Matrix multiplication, torchview]
-math: false
+math: true
 ---
 
 
