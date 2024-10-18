@@ -1,16 +1,20 @@
 ---
-title: acceleration of LLM - matrix multiplication
+title: Acceleration of LLM - matrix multiplication
 tags: [LLM, acceleration, Matrix multiplication, torchview]
 math: false
 ---
 
+
 # Background
+
 
 After read "Manual Autograd" in [unsloth's blog](https://unsloth.ai/blog/mistral-benchmark), I try to parse model and found more related point where we can optimize.
 
 [torchview](https://github.com/mert-kurttutan/torchview) is a great similar tool to use.
 
+
 # torchview
+
 
 ### what torchview can do
 
@@ -41,12 +45,16 @@ Attention: there are much softmax or activation functions in general model, the 
 
 Parse module: torchview can not parse the specific module so far, there are so much special case in module, like [llamaAttention](https://github.com/huggingface/transformers/blob/b54109c7466f6e680156fbd30fa929e2e222d730/src/transformers/models/llama/modeling_llama.py#L273). But, if we have specific input data, it can follow a specific path to execute the code, it seems that torchview works in this way because input data or input size is necessary for torchview, I didn't research much more about that.
 
+
 # Things worth explore
+
 
 Optmization of matrix multiplication still can be used in other module, like 
 1. LoRA, as said in unsloth
 2. Autograd in backward, maybe
 
+
 # Conclusion
+
 
 Failling on this indicate that I always think too much but read insufficiently. Simple idea can not work in most situations.
