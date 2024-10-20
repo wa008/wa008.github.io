@@ -10,7 +10,7 @@ Inspiration: the change in weights during model adaptation have a low "intrinsic
 
 Description: Change small matrices `A` and `B` when fine-tune, adding `A * B` to weight `W`, which significantly reduce the trainable number of parameters because `r << d`
 
-![scalability](/images/2024/09/20-03.png){: width="300"}
+![scalability](/images/2024/10/20-03.png){: width="300"}
 
 Novelty: Reducing Fine-tuen cost without additional latency and quality reduction or changing input consturction at the same time
 
@@ -24,11 +24,11 @@ Novelty: Reducing Fine-tuen cost without additional latency and quality reductio
 ## Further information
 1) LoRA have better scalability and performances
 
-![scalability](/images/2024/09/20-01.png){: width="600"}
+![scalability](/images/2024/10/20-01.png){: width="600"}
 
 2) Adapting more weight matrices is preferable than adapting a single type of weights with a larger rank, 2 or 4 is a great option
 
-![scalability](/images/2024/09/20-02.png){: width="600"}
+![scalability](/images/2024/10/20-02.png){: width="600"}
 
 3) Similiarity of LoRA vectors among different rank(r) is higher when dimention is small, which prove (1)low-demension consists more information, (2) small r is enough
 
