@@ -1,5 +1,5 @@
 ---
-title: notes of LoRA
+title: Notes of LoRA
 tags: [LoRA, LLM, fine-tune]
 math: true
 ---
