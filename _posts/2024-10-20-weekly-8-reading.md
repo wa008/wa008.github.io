@@ -38,6 +38,6 @@ More cost are need for Plan B, it's not the best time to pay for them. Working i
 
 ## Next week
 + Youtube
-+ Paper
++ LLM acceleration
 + Reading
 + Exercise
