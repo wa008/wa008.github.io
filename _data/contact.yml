@@ -6,6 +6,10 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
+- type: youtube
+  icon: "fa-brands fa-youtube"
+  url: "https://www.youtube.com/channel/UCgbPzVKmfLZSlZqDe_-CXkg"
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
