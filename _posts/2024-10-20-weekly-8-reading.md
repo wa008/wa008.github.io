@@ -1,6 +1,8 @@
 ---
 title: Weekly-#8 Start Reading
 tags: [Weekly]
+comments: true
+math: true
 ---
 
 ## Product
