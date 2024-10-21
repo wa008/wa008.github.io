@@ -17,6 +17,12 @@ math: true
 
 Upload [four videos](https://www.youtube.com/@Wanderer1024) this week and receive 5 Subscribers
 
+### Blog
+
+Update current blog to [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+
+[Updated commit](https://github.com/wa008/wa008.github.io/commit/69cdc6eddf3df1501464d6fef74339f42263c8c1#diff-b6de6917dae93e65e870ddc376e8a8b00942666f8ed5fffd789118fddec950fc)
+
 ## Reading 
 + Searching content is the advanced ability compared reading from others
 + flow is money, eliminating information gap can obtain money
