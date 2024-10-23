@@ -11,7 +11,7 @@ There are two common kinds of bound which limited the speed of training in deep 
 + Memeory-bound: time spent on memeory-access is bottlenecked
 + Computation-bound: time spent on computation is bottlenecked
 
-## Backgroud
+## Introduction
 
 Inspiration: just tiling?
 
