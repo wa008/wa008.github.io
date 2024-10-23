@@ -24,7 +24,9 @@ Novelty: Making attention memory-efficient
 ## Benefits
 
 1) Faster model training, due to use SRAM more?
+
 2) Higher quality modles in long sequence tasks.
+
 3) New benchmarking attention, both faster and memory-efficient than existing attention method (2022.5)
 
 ## Further information
