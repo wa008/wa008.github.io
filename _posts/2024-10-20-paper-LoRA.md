@@ -47,7 +47,7 @@ large Matrices in LLM have a low "intrinsic rank"?
 New fine-tune method
 
 4) What references is necessary to read?
-Wehre "intrinsic rank" comes from?
+Where "intrinsic rank" comes from?
 + [Measuring the Intrinsic Dimension of Objective Landscapes](https://arxiv.org/abs/1804.08838)
 + [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
 
