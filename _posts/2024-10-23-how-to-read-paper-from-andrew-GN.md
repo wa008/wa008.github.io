@@ -34,7 +34,7 @@ Collect, summary and adjust to get the following tutorial from multi-sources in 
     + Most information summarized in one or two figures
     + Get a good understanding without reading much text
 2. Read the Introduction/Conclusions/Figures(again)
-3. Read all except math
+3. Read all and skip math
 4. Read all and skip that don't make sense
 
 #### Deep understanding 
@@ -49,6 +49,6 @@ Collect, summary and adjust to get the following tutorial from multi-sources in 
 + What other references do you want to follow?
 
 ## Reference: 
-+ [original video](https://www.youtube.com/watch?v=733m6qBH-jI)
++ [Andrew NG's video](https://www.youtube.com/watch?v=733m6qBH-jI)
 + [Learning to learn](https://kevin.the.li/posts/learning-to-learn/)
 
