@@ -47,8 +47,8 @@ Collect, summary and adjust to get the following tutorial from multi-sources in 
 + What were the key elements of the approach?
 + What can you use yourself?
 + What other references do you want to follow?
++ Is there new idea?
 
 ## Reference: 
 + [Andrew NG's video](https://www.youtube.com/watch?v=733m6qBH-jI)
 + [Learning to learn](https://kevin.the.li/posts/learning-to-learn/)
-

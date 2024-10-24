@@ -29,6 +29,8 @@ Novelty: Making attention memory-efficient
 
 3) New benchmarking attention, both faster and memory-efficient than existing attention method (2022.5)
 
+4) Block-Sparse, only compute for no-zero block for attention_mask
+
 ## Further information
 
 1) Algorithm
@@ -38,25 +40,26 @@ Novelty: Making attention memory-efficient
 2) Flash-attention has higher FLOP count compared to standard attention but is still faster because attention is memory-access-bound and falsh-attention has fewer HBM accesses.
 
 ## Not finished 
-+ how to recalculate backward grad
-+ block sparse
+
++ Math about how to recalculate backward grad
 
 ## Summary
 
 1) Purpose of auther?
+
 Using blocks method to make memory-bound network memroy-efficient and faster
 
 2) Key of new method?
+
 Using block to avoid the store of large softmax attention maxtrice.
 
 3) What is useful for me?
+
 Using block to trade-off between memory and computation, which can be use based on memory-bound or computation-bound
 
 4) What references is necessary to read?
-[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451): sparse-approximation to reduce the computation and memory requirements
-[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794): low-rank approximation to do same thing
-
-> 1-4 from Andrew NG
++ [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451): sparse-approximation to reduce the computation and memory requirements
++ [Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794): low-rank approximation to do same thing
 
 5) new idea
 
