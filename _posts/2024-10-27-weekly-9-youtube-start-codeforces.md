@@ -36,7 +36,7 @@ two updates
 + [another producthunt](https://www.launching.today/)
 + If you want high-quality conversation, don't talking in the most popular community, go to high-quality but unpopular community like HackerNews
 + [public research group in india and published papers](https://www.reddit.com/r/MachineLearning/comments/1gb74j6/r_paper_summaries_for_some_of_our_papers_that): great way to research
-+ [tinymid](https://tinymind.me/): best blog platform!
++ [tinymid](https://tinymind.me/): great blog platform using github pages!
 
 ## Thought
 
