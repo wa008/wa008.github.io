@@ -19,6 +19,7 @@ git add ./_posts/*
 git add ./images/*png
 git add ./images/*/*png
 git add ./images/*/*/*png
+git add ./_tabs/*md
 git status 
 
 echo "check commit... Yes or No"
