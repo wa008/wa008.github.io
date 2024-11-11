@@ -9,12 +9,12 @@ comments: true
 
 ### method
 
-there two main method to acclerate
+There are two main methods to acclerate LLM
 
 + low-rank: reduce dimension of matrix
-+ block: compute matrix with blcok
++ block: compute matrix with block
 
-and another tricky method
+and another tricky methods
 
 ### reference
 
@@ -61,30 +61,26 @@ attention calculation with blocks
 
 + Dec 2021
 
+### unsloth
++ [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
++ [Matrix Multiplication](https://informal.top/posts/try-of-torchview-to-accelerate-finetune-new/)
+
+## To Read
+
 ### RNN
 
-#### [RWKV](https://arxiv.org/abs/2404.05892)
-
-RWKV is an RNN with transformer-level LLM performance
-
-#### [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
++ [RWKV](https://arxiv.org/abs/2404.05892): RWKV is an RNN with transformer-level LLM performance
++ [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
 
 ### PE
 
-#### [RoPE](https://arxiv.org/abs/2104.09864)
+[RoPE](https://arxiv.org/abs/2104.09864)
 
-### complie
+### compliew
 
-#### [trition](https://github.com/triton-lang/triton)
-
-### unsloth
-
-#### [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
-
-#### [Matrix Multiplication](https://informal.top/posts/try-of-torchview-to-accelerate-finetune-new/)
+[trition](https://github.com/triton-lang/triton)
 
 ### type conversion
 
-#### [Reduce  data upcasting](https://unsloth.ai/blog/mistral-benchmark)
-
-#### [Bitsandbytes  bfloat16](https://unsloth.ai/blog/mistral-benchmark)
++ [Reduce  data upcasting](https://unsloth.ai/blog/mistral-benchmark)
++ [Bitsandbytes  bfloat16](https://unsloth.ai/blog/mistral-benchmark)
