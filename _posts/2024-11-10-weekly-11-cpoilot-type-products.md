@@ -1,5 +1,5 @@
 ---
-title: Weekly-#10 Copilot-type products
+title: Weekly-#11 Copilot-type products
 tags: [Weekly]
 comments: true
 math: false

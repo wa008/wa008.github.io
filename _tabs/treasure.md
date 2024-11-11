@@ -8,6 +8,7 @@ order: 4
 ## Friends
 + [kexue.fm](https://kexue.fm/)
 + [hackerfactor](https://hackerfactor.com/index.php)
++ [王登科](https://greatdk.com/)
 
 ## To read
 + Thing explainer, by Randall Munroe
