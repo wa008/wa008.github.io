@@ -10,15 +10,14 @@ comments: true
 ### method
 
 There are two main methods to acclerate LLM
-
 + low-rank: reduce dimension of matrix
 + block: compute matrix with block
 
 and another tricky methods
 
 ### reference
-
-[fast attention collection](https://ben.bolte.cc/fast-attention)
++ [fast attention collection](https://ben.bolte.cc/fast-attention)
++ [unsloth](https://unsloth.ai/blog/mistral-benchmark)
 
 ## Papers
 
