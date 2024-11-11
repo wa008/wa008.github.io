@@ -76,7 +76,7 @@ attention calculation with blocks
 
 [RoPE](https://arxiv.org/abs/2104.09864)
 
-### compliew
+### complie
 
 [trition](https://github.com/triton-lang/triton)
 
