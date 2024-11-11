@@ -39,10 +39,14 @@ reference
 #### [Linformer](https://arxiv.org/abs/2006.04768)
 
 SVD decomposition for large QKV projection matrices to reduce required memory
++ Jun 2020
++ 30%
 
 #### [Performers](https://arxiv.org/abs/2009.14794)
 
 low-rank projection with a novel method named FAVOR
++ Sep 2020
++ 10%
 
 ### block
 
@@ -59,6 +63,7 @@ Matrices multiplication by blocks
 attention calculation with blocks
 
 + Dec 2021
++ 70%
 
 ### unsloth
 + [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
@@ -81,5 +86,5 @@ attention calculation with blocks
 
 ### type conversion
 
-+ [Reduce  data upcasting](https://unsloth.ai/blog/mistral-benchmark)
-+ [Bitsandbytes  bfloat16](https://unsloth.ai/blog/mistral-benchmark)
++ [Reduce data upcasting](https://unsloth.ai/blog/mistral-benchmark)
++ [Bitsandbytes bfloat16](https://unsloth.ai/blog/mistral-benchmark)
