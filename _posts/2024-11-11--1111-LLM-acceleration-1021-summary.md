@@ -85,6 +85,11 @@ attention calculation with blocks
 [trition](https://github.com/triton-lang/triton)
 
 ### type conversion
-
 + [Reduce data upcasting](https://unsloth.ai/blog/mistral-benchmark)
 + [Bitsandbytes bfloat16](https://unsloth.ai/blog/mistral-benchmark)
+
+### other new paper
++ New Solutions on LLM Acceleration, Optimization, and Application
++ [awesome LLM system](https://github.com/galeselee/Awesome_LLM_System-PaperList?tab=readme-ov-file)
++ [FlashDecoding++: Faster Large Language Model Inference on GPUs](https://arxiv.org/abs/2311.01282)
++ Hardware Acceleration of LLMs: A comprehensive survey and comparison

@@ -23,6 +23,8 @@ Collect, summary and adjust to get the following tutorial from multi-sources in 
     + Arxiv
     + Medium
     + alphaxiv
+    + Google scholar
+    + Hugging Face
 + Read a few of them and then decide which to read more
 + Read again when you need it after first reading
 + How many are need?
