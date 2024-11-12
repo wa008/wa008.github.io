@@ -93,3 +93,16 @@ attention calculation with blocks
 + [awesome LLM system](https://github.com/galeselee/Awesome_LLM_System-PaperList?tab=readme-ov-file)
 + [FlashDecoding++: Faster Large Language Model Inference on GPUs](https://arxiv.org/abs/2311.01282)
 + Hardware Acceleration of LLMs: A comprehensive survey and comparison
++ nips
+    + https://openreview.net/forum?id=OuQYWNuNxm
+    + https://nips.cc/virtual/2024/poster/94605
+    + https://nips.cc/virtual/2024/poster/96404
+    + https://nips.cc/virtual/2024/poster/96619
+    + https://nips.cc/virtual/2024/poster/93106
++ iclr
+    + [iceformer](https://iclr.cc/virtual/2024/poster/19389)
+    + Sheared LLaMA
++ ICML
+    + https://icml.cc/virtual/2024/poster/34133
+    + https://icml.cc/virtual/2024/poster/32874
+    + https://icml.cc/virtual/2024/poster/33254
