@@ -3,6 +3,7 @@ title: LLM acceleration
 tags: [LLM, fine-tune, acceleration]
 math: true
 comments: true
+pin: true
 ---
 
 ## Summary
@@ -15,7 +16,10 @@ There are two main methods to acclerate LLM
 
 and another tricky methods
 
+already read papers: 9
+
 ### Reference
++ [xformers](https://github.com/facebookresearch/xformers): collection of optimized transformers
 + [fast attention collection](https://ben.bolte.cc/fast-attention)
 + [unsloth](https://unsloth.ai/blog/mistral-benchmark)
 + [awesome LLM system](https://github.com/galeselee/Awesome_LLM_System-PaperList)
@@ -42,12 +46,14 @@ reference
 SVD decomposition for large QKV projection matrices to reduce required memory
 + Jun 2020
 + 30%
++ [code](https://github.com/lucidrains/linformer): hold
 
 #### [Performers](https://arxiv.org/abs/2009.14794)
 
 low-rank projection with a novel method named FAVOR
 + Sep 2020
 + 10%
++ [code](https://github.com/lucidrains/performer-pytorch): hold
 
 ### Block
 
@@ -58,6 +64,7 @@ Matrices multiplication by blocks
 + [note](https://informal.top/posts/notes-of-FlashAttention/)
 + May 2020
 + 70%
++ [cod](https://github.com/Dao-AILab/flash-attention): updating
 
 #### [Self-attention Does Not Need O(n2) Memory](https://arxiv.org/abs/2112.05682)
 
@@ -65,6 +72,24 @@ attention calculation with blocks
 
 + Dec 2021
 + 70%
+
+#### + [FlashDecoding++](https://arxiv.org/abs/2311.01282)
+
+FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
++ Softmax with block and Unified Maximum Value, result of block softmax can be directly used and merging is unnecesary. Optimized from FlashAttention.
+    
+    ![scalability](/images/2024/1113-01.png){: width="600"}
+
++ Flat GEMM(small batch size when reference) Optimization with Double Buffering. [didn't understand]
++ Heuristic Dataflow with Hardware Resource Adaption, choose difference optimizaiton methods for different M value(batch size and sequence length) [didn't total understand]
+
+    ![scalability](/images/2024/1113-02.png){: width="600"}
+
++ reference 
+    + cuBLAS / [CUTLASS](https://github.com/NVIDIA/cutlass)
+    + flat GEMM: method in current paper
+    + fastGEMV
++ No code(2024.11)
 
 ### Basic
 + [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
@@ -78,28 +103,25 @@ attention calculation with blocks
 
 1) Medusa: output top-k predictions for next multiple positions parallelly through adding LM heads for next several positons, which can reduce inference latency.
 
-![scalability](/images/2024/1112-01.png){: width="800"}
+![scalability](/images/2024/1112-01.png){: width="600"}
 
 2) SnapKV: compress KV cacha for long sequence tasks
 
 
 ## To Read
 
-softmax / basic
-+ [FlashDecoding++: Faster Large Language Model Inference on GPUs](https://arxiv.org/abs/2311.01282)
-
 Hardware
 + [trition](https://github.com/triton-lang/triton)
 + Hardware Acceleration of LLMs: A comprehensive survey and comparison
 
-Basic
-+ Accelerating Relative Entropy Coding with Space Partitioning
+backprog
++ DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
 
 MoE
 + SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention
 
-backprog
-+ DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
+Basic
++ Accelerating Relative Entropy Coding with Space Partitioning
 
 Long sequence
 + IceFormer: Accelerated Inference with Long-Sequence Transformers on CPUs
