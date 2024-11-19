@@ -107,43 +107,61 @@ FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
 
 2) SnapKV: compress KV cacha for long sequence tasks
 
+### Infrastructure
+
+**[triton](https://github.com/triton-lang/triton)**
++ An alternative language for cuda, designed for deep neural network
++ published in 2019, purchase by OpenAI
++ reasons why it's great
+    + designed for deep neural network
+    + open-source, active project in Github 
+    + clients, like unsloth, other in Github issues
+    + friendly to use and implentment, adding them into current Python code, Good to start
+    + support for other chips
+
+**Hardware Acceleration of LLMs: A comprehensive survey and comparison**
+Simple introduce and compare different hardware acceleration method in terms of efficiency and performance
++ collect all method from 2020-2024
++ comparison with the same process technology
++ different choose for both efficiency and performance
 
 ## To Read
-
-Hardware
-+ [trition](https://github.com/triton-lang/triton)
-+ Hardware Acceleration of LLMs: A comprehensive survey and comparison
-
-backprog
-+ DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
-
-MoE
-+ SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention
 
 Basic
 + Accelerating Relative Entropy Coding with Space Partitioning
 
-Long sequence
-+ IceFormer: Accelerated Inference with Long-Sequence Transformers on CPUs
-
-Pruning
-+ Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
-
-2:4
-+ Accelerating Transformer Pre-training with 2:4 Sparsity
-
 parameter
 + Inference with Reference: Lossless Acceleration of Large Language Models
-
-trade-off
-+ AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration
-
-cache
-+ Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference
-
-PE
-+ [RoPE](https://arxiv.org/abs/2104.09864)
 
 RNN
 + [RWKV](https://arxiv.org/abs/2404.05892): RWKV is an RNN with transformer-level LLM performance
 + [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
+
+MoE
++ SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention
+
+
+
+
+backprog
++ DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
+
+Long sequence
++ IceFormer: Accelerated Inference with Long-Sequence Transformers on CPUs
+
+
+
+2:4
++ Accelerating Transformer Pre-training with 2:4 Sparsity
+
+Pruning
++ Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+
+cache
++ Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference
+
+trade-off
++ AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration
+
+PE
++ [RoPE](https://arxiv.org/abs/2104.09864)
