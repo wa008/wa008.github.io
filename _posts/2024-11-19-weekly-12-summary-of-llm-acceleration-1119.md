@@ -47,6 +47,12 @@ Anything existing must be reasonable, almost everythink has its reason.
 
 There should be a methodology for everythink, because even building product have one.
 
+### Zootopia
+
+sloth is so cute.
+
+The world is a simplified animals world, with small differences. Some people will go to zootopia, other will stay in rabbit town.
+
 ### Lobste.rs
 
 Asking for several days, finally got one invitation. This blog definitely contribute more for it. Power of personal product.
