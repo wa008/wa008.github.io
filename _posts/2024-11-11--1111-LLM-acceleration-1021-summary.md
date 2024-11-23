@@ -1,5 +1,5 @@
 ---
-title: outline of LLM acceleration
+title: Outline of LLM acceleration
 tags: [LLM, fine-tune, acceleration]
 math: true
 comments: true
