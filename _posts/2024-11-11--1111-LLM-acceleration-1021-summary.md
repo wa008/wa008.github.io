@@ -1,5 +1,5 @@
 ---
-title: LLM acceleration
+title: outline of LLM acceleration
 tags: [LLM, fine-tune, acceleration]
 math: true
 comments: true
@@ -10,13 +10,12 @@ pin: true
 
 ### Methods
 
-There are two main methods to acclerate LLM
+There are two main methods to acclerate LLM and another tricky methods
 + low-rank: reduce dimension of matrix
 + block: compute matrix with block
++ trick: update model structure or change training process
 
-and another tricky methods
-
-already read papers: 9
+already read papers: 12
 
 ### Reference
 + [xformers](https://github.com/facebookresearch/xformers): collection of optimized transformers
@@ -125,31 +124,28 @@ Simple introduce and compare different hardware acceleration method in terms of 
 + comparison with the same process technology
 + different choose for both efficiency and performance
 
+### Trick
++ Inference with Reference: Lossless Acceleration of Large Language Models: copy reference to inference because there many same text sentence betwee them to accelerate inference
++ SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention: select different experts matrices for every head in attention by input content to reduce computation and memory usage.
+    + published: 2024
++ [DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation](https://arxiv.org/abs/2402.17812):
+    + Drop Backward propagation based on sensitivity which is the difference between Backward update and not update. great idea!
+    + change model constructure to have a 2^n submodels when drop some submodels
+    + published: 2024
+
+![scalability](/images/2024/1123-01.png){: width="800"}
+
+
 ## To Read
-
-Basic
-+ Accelerating Relative Entropy Coding with Space Partitioning
-
-parameter
-+ Inference with Reference: Lossless Acceleration of Large Language Models
 
 RNN
 + [RWKV](https://arxiv.org/abs/2404.05892): RWKV is an RNN with transformer-level LLM performance
+
+Trick
 + [An Attention Free Transformer](https://arxiv.org/abs/2105.14103)
-
-MoE
-+ SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention
-
-
-
-
-backprog
-+ DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
 
 Long sequence
 + IceFormer: Accelerated Inference with Long-Sequence Transformers on CPUs
-
-
 
 2:4
 + Accelerating Transformer Pre-training with 2:4 Sparsity
