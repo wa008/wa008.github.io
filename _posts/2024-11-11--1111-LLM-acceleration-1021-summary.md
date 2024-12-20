@@ -138,6 +138,12 @@ Simple introduce and compare different hardware acceleration method in terms of 
 
 ## To Read
 
+Quantization
++ [Quantization for Neural Networks](https://leimao.github.io/article/Neural-Networks-Quantization/)
+
+Optimizer
++ [APOLLO: SGD-like Memory, AdamW-level Performance](https://arxiv.org/abs/2412.05270)
+
 RNN
 + [RWKV](https://arxiv.org/abs/2404.05892): RWKV is an RNN with transformer-level LLM performance
 
