@@ -1,5 +1,5 @@
 ---
-title: Weekly-#17 Cross Entropy Loss of Triton
+title: Weekly-#18 Cross Entropy Loss of Triton
 tags: [Weekly]
 comments: true
 math: false
