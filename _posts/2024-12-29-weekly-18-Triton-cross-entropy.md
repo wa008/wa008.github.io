@@ -9,7 +9,8 @@ math: false
 ### Implementation of Triton
 I tried to realise better cross entropy loss by Triton, but failed, still trying to find the reason...
 
-It seems that I didn't do other think except this project and table tennis.
+### PopTranslate
+Update to 3.2, replace self-hosted translation server with Google Gemini 2.0 experimental
 
 ## Thought 
 I met three great table tennis coaches recently in table tennis room. They have different styles to teach people, one of them are strict but another of them always say good things to their student. last one is patient and really nice, he can taught everyone with different levels with enough patience. 
