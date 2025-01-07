@@ -8,11 +8,13 @@ math: true
 ## Product
 ### Full Cross Entropy
 **Realising of fast cross entropy**
+
 Based on previous knowledge on fast cross-entropy, realizing it by triton doesn't spend too much.
 
 There are only 1e-7 difference between Pytorch and my Triton kernel, But the speed is significantly lower.
 
 **Liger-Kernel**
+
 Getting advise on gpumode discord group, I can read how it realized in other great Triton kernel repository. 
 
 Liger-Kernel is the best option, but the speed is still lower than Pytorch, one result of them is 3053.16ms vs 0.04ms, even it save a lot of memmory, result is 0.51 vs 1.25
@@ -23,9 +25,10 @@ Pytorch is 1000x faster than Triton kernel which I have ever tried, it's unreaso
 
 With help of friend in gpumode discord server, I found the environment variable is the root reason of self-made triton kernel. After realise the backward, the result as below picture show: 
 
-![Speed test](/images/2024/0106-01.png){: width="800"}
+![Speed test](/images/2025/0106-01.png){: width="800"}
 
 code: 
+
 ```Python
 @triton.jit
 def loss_kernel(input_ptr,
