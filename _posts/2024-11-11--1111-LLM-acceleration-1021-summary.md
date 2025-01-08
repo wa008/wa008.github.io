@@ -19,8 +19,13 @@ already read papers: 12
 
 ### Reference
 + [xformers](https://github.com/facebookresearch/xformers): collection of optimized transformers
-+ [fast attention collection](https://ben.bolte.cc/fast-attention)
 + [unsloth](https://unsloth.ai/blog/mistral-benchmark)
++ [triton](https://github.com/triton-lang/triton)
++ [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)
++ [Flash-attention](https://github.com/Dao-AILab/flash-attention)
++ [Megatron-LM from NVIDIA](https://github.com/NVIDIA/Megatron-LM)
++ [huggingface accelerate](https://github.com/huggingface/accelerate)
++ [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 + [awesome LLM system](https://github.com/galeselee/Awesome_LLM_System-PaperList)
 
 ## Categories
@@ -98,17 +103,19 @@ FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
 
 ### Parallelization
 
-**New Solutions on LLM Acceleration, Optimization, and Application**
+1) **Medusa**
 
-1) Medusa: output top-k predictions for next multiple positions parallelly through adding LM heads for next several positons, which can reduce inference latency.
+output top-k predictions for next multiple positions parallelly through adding LM heads for next several positons, which can reduce inference latency.
 
 ![scalability](/images/2024/1112-01.png){: width="600"}
 
-2) SnapKV: compress KV cacha for long sequence tasks
+2) **SnapKV**
+
+compress KV cacha for long sequence tasks
 
 ### Infrastructure
 
-**[triton](https://github.com/triton-lang/triton)**
+1) **[triton](https://github.com/triton-lang/triton)**
 + An alternative language for cuda, designed for deep neural network
 + published in 2019, purchase by OpenAI
 + reasons why it's great
@@ -118,20 +125,27 @@ FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
     + friendly to use and implentment, adding them into current Python code, Good to start
     + support for other chips
 
-**Hardware Acceleration of LLMs: A comprehensive survey and comparison**
+2) **Hardware Acceleration of LLMs**: A comprehensive survey and comparison
+
 Simple introduce and compare different hardware acceleration method in terms of efficiency and performance
 + collect all method from 2020-2024
 + comparison with the same process technology
 + different choose for both efficiency and performance
 
 ### Trick
-+ Inference with Reference: Lossless Acceleration of Large Language Models: copy reference to inference because there many same text sentence betwee them to accelerate inference
-+ SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention: select different experts matrices for every head in attention by input content to reduce computation and memory usage.
+1) Inference with Reference
+
+Lossless Acceleration of Large Language Models: copy reference to inference because there many same text sentence between them to accelerate inference
+2) SwitchHead
+
+Accelerating Transformers with Mixture-of-Experts Attention: select different experts matrices for every head in attention by input content to reduce computation and memory usage.
     + published: 2024
-+ [DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation](https://arxiv.org/abs/2402.17812):
-    + Drop Backward propagation based on sensitivity which is the difference between Backward update and not update. great idea!
-    + change model constructure to have a 2^n submodels when drop some submodels
-    + published: 2024
+3) [DropBP](https://arxiv.org/abs/2402.17812): 
+
+Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation:
++ Drop Backward propagation based on sensitivity which is the difference between Backward update and not update. great idea!
++ change model constructure to have a 2^n submodels when drop some submodels
++ published: 2024
 
 ![scalability](/images/2024/1123-01.png){: width="800"}
 
