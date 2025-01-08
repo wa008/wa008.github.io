@@ -77,7 +77,7 @@ attention calculation with blocks
 + Dec 2021
 + 70%
 
-#### + [FlashDecoding++](https://arxiv.org/abs/2311.01282)
+#### [FlashDecoding++](https://arxiv.org/abs/2311.01282)
 
 FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
 + Softmax with block and Unified Maximum Value, result of block softmax can be directly used and merging is unnecesary. Optimized from FlashAttention.
