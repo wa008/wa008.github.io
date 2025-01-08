@@ -68,7 +68,7 @@ Matrices multiplication by blocks
 + [note](https://informal.top/posts/notes-of-FlashAttention/)
 + May 2020
 + 70%
-+ [cod](https://github.com/Dao-AILab/flash-attention): updating
++ [code](https://github.com/Dao-AILab/flash-attention): updating
 
 #### [Self-attention Does Not Need O(n2) Memory](https://arxiv.org/abs/2112.05682)
 
