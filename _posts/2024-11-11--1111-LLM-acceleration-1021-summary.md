@@ -15,7 +15,7 @@ There are two main methods to acclerate LLM and another tricky methods
 + block: compute matrix with block
 + trick: update model structure or change training process
 
-already read papers: 12
+already read papers: 13
 
 ### Reference
 + [xformers](https://github.com/facebookresearch/xformers): collection of optimized transformers
@@ -94,6 +94,17 @@ FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
     + flat GEMM: method in current paper
     + fastGEMV
 + No code(2024.11)
+
+#### [Cut cross entropy](https://arxiv.org/abs/2411.09009)
+
+Main idea:
++ Avoid to store final large matrix throught block computation, which can save lots of memory when vocabulary is large. 
++ Softmax matrix is sparse, when all values are smaller than precision of data type, computation are unnecessary. 
+
+    ![Idea](/images/2025/0115-01.png){: width="600"}
+
+
+    ![Performance](/images/2025/0115-01.png){: width="600"}
 
 ### Basic
 + [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
