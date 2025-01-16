@@ -15,3 +15,4 @@ order: 5
 + [PopTranslate](https://github.com/wa008/PopTranslate): The most efficient translation Chrome extension
 + [YouTube](https://www.youtube.com/@Wanderer1024)
 + [Local Picture Compressor](https://informal.top/LocalPictureCompress/)
++ [AutoSwitch Translate](https://github.com/wa008/AutoSwitchTranslate)
