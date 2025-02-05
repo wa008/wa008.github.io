@@ -30,6 +30,7 @@ I want to do more about Triton, here is all what I can think
         * Unsloth 
         * Liger-Kernel 
         * Flash-attention 
+        * xformers
         * DeepSeek
             * MoE
             * electricity 
