@@ -28,6 +28,9 @@ I want to do more about Triton, here is all what I can think
 * analysis time and memory cost of kernel 
     * compare different model and framework [H]
         * Unsloth 
+        * Deepseed
+        * TensorRT-LLM
+        * vLLM
         * Liger-Kernel 
         * Flash-attention 
         * xformers
