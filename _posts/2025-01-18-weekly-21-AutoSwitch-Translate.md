@@ -1,5 +1,5 @@
 ---
-title: Weekly-#20 AutoSwitch Translate
+title: Weekly-#21 AutoSwitch Translate
 tags: [Weekly]
 comments: true
 math: true
