@@ -59,6 +59,10 @@ low-rank projection with a novel method named FAVOR
 + 10%
 + [code](https://github.com/lucidrains/performer-pytorch): hold
 
+#### [Multi-head Latent Attention](https://arxiv.org/pdf/2405.04434)
+
+Project high dimension into low dimension for KV cache, which can reduct much memory ustage.
+
 ### Block
 
 #### [FlashAttention](https://arxiv.org/abs/2205.14135)
