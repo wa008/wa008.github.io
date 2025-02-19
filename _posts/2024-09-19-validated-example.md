@@ -50,8 +50,8 @@ This can prove that My new code have the same result compare to default official
 default offical key code:
 
 ```python
-# time complexity 2n for subtracting max-logit
-log_probs = -nn.functional.log_softmax(logits, dim=-1) # time complexity 4n
+# time complexity 2n for subtracting max-logit (max, subtract)
+log_probs = -nn.functional.log_softmax(logits, dim=-1) # time complexity 4n (exp, sum_exp, expx / sum_exp, + max)
 
 nll_loss = log_probs.gather(dim=-1, index=labels) # 1n
 smoothed_loss = log_probs.sum(dim=-1, keepdim=True, dtype=torch.float32) # 1n
@@ -63,11 +63,11 @@ My new code:
 logitsmax = logits.max(dim = -1)[0].unsqueeze(-1) # 1n
 logsumexp = ((logits - logitsmax.repeat(1, 1, logits.shape[-1])).exp().sum(dim = -1).log()).unsqueeze(-1) + logitsmax # 3n
 
-nll_loss = logsumexp - logits.gather(dim=-1, index=labels) # 0
+nll_loss = logsumexp - logits.gather(dim=-1, index=labels) # 1n
 smoothed_loss = (logits.shape[-1] * logsumexp - logits.sum(dim = -1, keepdim=True, dtype = torch.float32)) # 1n
 ```
 
-PS: In theory, time complexity reduce from $8n$ to $5n$, I'm not 100% confirm this value right and it's hard to prove that.
+PS: In theory, time complexity reduce from $8n$ to $6n$, I'm not 100% confirm this value right and it's hard to prove that.
 
 
 
