@@ -107,8 +107,7 @@ Main idea:
 
     ![Idea](/images/2025/0115-01.png){: width="600"}
 
-
-    ![Performance](/images/2025/0115-01.png){: width="600"}
+    ![Performance](/images/2025/0115-02.png){: width="600"}
 
 ### Basic
 + [Fast Cross Entropy Loss](https://informal.top/posts/validated-example/)
