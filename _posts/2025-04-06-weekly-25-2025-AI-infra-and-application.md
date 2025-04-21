@@ -1,5 +1,5 @@
 ---
-title: Weekly-#25 AI infra
+title: Weekly-#25 AI infra and application
 tags: [Weekly]
 comments: true
 ---
@@ -14,7 +14,7 @@ LLM computation industry is a huge field and market, there're also many domestic
 
 This field is fun, enough patience and strong coding ability are required.
 
-In addition, Knowledge are more stable than that in other fileds because it change in less frequancy. Similarly, knowledge about CPU change less than programming language in recent decades, expecially for Python. As a result, I can put enough energy in this fields becuase it worth not only for money but also for research result. s
+In addition, Knowledge are more stable than that in other fileds because it change in less frequancy. Similarly, knowledge about CPU change less than programming language in recent decades, expecially for Python. As a result, I can put enough energy in this fields becuase it worth not only for money but also for research result.
 
 ## LLM Application
 
