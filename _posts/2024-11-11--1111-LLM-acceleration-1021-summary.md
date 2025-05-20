@@ -1,9 +1,10 @@
 ---
 title: Outline of LLM acceleration
+categories: [LLM]
 tags: [LLM, fine-tune, acceleration]
 math: true
 comments: true
-pin: true
+pin: false
 ---
 
 ## Summary
@@ -85,7 +86,7 @@ attention calculation with blocks
 
 FlashDecoding++: Faster Large Language Model Inference on GPUs, three parts
 + Softmax with block and Unified Maximum Value, result of block softmax can be directly used and merging is unnecesary. Optimized from FlashAttention.
-    
+  
     ![scalability](/images/2024/1113-01.png){: width="600"}
 
 + Flat GEMM(small batch size when reference) Optimization with Double Buffering. [didn't understand]

@@ -1,9 +1,10 @@
 ---
 title: How to learn knowledge in new fields?
+categories: [General]
 tags: [Read paper, Learning]
 math: true
 comments: true
-pin: true
+pin: false
 ---
 
 Collect, summary and adjust to get the following tutorial from multi-sources in Reference.
