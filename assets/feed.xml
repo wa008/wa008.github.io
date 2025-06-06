@@ -45,7 +45,7 @@ permalink: /feed.xml
     {% endfor %}
   {% endif %}
 
-  <summary>{% assign content = post.content %}</summary>
+  <summary>{% content=post.content %}</summary>
 
   </entry>
 {% endfor %}
