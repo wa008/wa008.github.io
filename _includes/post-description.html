@@ -8,7 +8,8 @@
 {%- if post.description -%}
   {{- post.description -}}
 {%- else -%}
-  {{- post.content | markdownify | strip_html -}}
+  {%- include no-linenos.html content=post.content -%}
+  {{- content | markdownify | strip_html -}}
 {%- endif -%}
 {%- endcapture -%}
 
