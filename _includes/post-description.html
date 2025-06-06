@@ -9,8 +9,8 @@
   {{- post.description -}}
 {%- else -%}
   {%- include no-linenos.html content=post.content -%}
-  {{- content -}}
+  {{- content | markdownify | strip_html -}}
 {%- endif -%}
 {%- endcapture -%}
 
-{{- description | truncate: max_length | escape -}}
+{{- description | strip | truncate: max_length | escape -}}
