@@ -9,7 +9,7 @@
   {{- post.description -}}
 {%- else -%}
   {%- include no-linenos.html content=post.content -%}
-  {{- content | markdownify | strip_html -}}
+  {{- content -}}
 {%- endif -%}
 {%- endcapture -%}
 
