@@ -45,7 +45,7 @@ permalink: /feed.xml
     {% endfor %}
   {% endif %}
 
-  <summary>{% include post.content | newline_to_br | xml_escape %}</summary>
+  <summary>{% include post.content %}</summary>
 
   </entry>
 {% endfor %}
