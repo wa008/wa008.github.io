@@ -13,3 +13,7 @@ Compared with SFT, RL-base method like DPO, GRPO want human to use certain logit
 
 What we need to do is to mining certain logits as much as we can. One aspect is all data in the true world, which already had been used in pre-train stage. Another aspect, we can create some logits which are suitable for all data produced by LLMs, like logits in math and coding. that's why RL-based method works well in these two fields. For math, finding correct answer is hard but to validate if one specific answer is correct is related more easy. it works in programming, what we need is to create enough test case and set a automate test process.
 
+
+
+
+
