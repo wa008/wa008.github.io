@@ -5,7 +5,7 @@ icon: "fa-solid fa-user-group"
 order: 4
 ---
 
-## Friends
+## Personal blog
 + English
     + [hackerfactor](https://hackerfactor.com/index.php)
     + [null program](https://nullprogram.com/)
@@ -14,6 +14,7 @@ order: 4
     + [王登科](https://greatdk.com/)
     + [asyncx](https://blog.asyncx.top/zh/blog/)
 
+
 ## To read
 + Thing explainer, by Randall Munroe
 + Poor Charlie's Almanack
@@ -21,6 +22,7 @@ order: 4
 + Seeking Wisdom: From Darwin to Munger
 + The Essays of Warren Buffett: Lessons for Corporate America
 + Principles: Life and Work
+
 
 ## Best startup examples
 + [YC](https://www.ycombinator.com/companies)
