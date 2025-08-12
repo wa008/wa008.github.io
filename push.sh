@@ -1,10 +1,10 @@
 if [ $# != 1 ] ; then
-	echo -e 'need comment!\n'
+	echo "need comment!\n"
 	exit 1
 fi
 
 comm=$1
-echo -e "comment: ${comm}\n"
+echo "comment: ${comm}\n"
 
 git pull --rebase --autostash
 if [ $? != 0 ] ; then
