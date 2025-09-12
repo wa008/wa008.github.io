@@ -3,6 +3,7 @@ title: Weekly-#21 AutoSwitch Translate
 tags: [Weekly]
 comments: true
 math: true
+pin: true
 ---
 
 ## Product

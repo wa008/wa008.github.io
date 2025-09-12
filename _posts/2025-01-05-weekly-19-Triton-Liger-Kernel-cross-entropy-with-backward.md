@@ -3,6 +3,7 @@ title: Weekly-#19 Full Cross Entropy Loss of Triton
 tags: [Weekly]
 comments: true
 math: true
+pin: true
 ---
 
 ## Product

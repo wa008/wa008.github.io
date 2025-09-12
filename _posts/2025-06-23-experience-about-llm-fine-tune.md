@@ -3,6 +3,7 @@ title: LLM fine-tune experience
 tags: [LLM, find-tune]
 categories: [LLM]
 comments: true
+pin: true
 ---
 
 Personal experience

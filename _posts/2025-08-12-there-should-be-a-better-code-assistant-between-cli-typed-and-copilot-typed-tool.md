@@ -2,6 +2,7 @@
 title: There should be a better code-assistant between copilot-typed and cli-typed tool
 tags: [LLM, Gemini-cli, Claude-code, copilot, code-assistant]
 comments: true
+pin: true
 ---
 
 ### copilot-typed

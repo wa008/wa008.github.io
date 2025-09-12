@@ -4,7 +4,7 @@ categories: [LLM]
 tags: [LLM, fine-tune, acceleration]
 math: true
 comments: true
-pin: false
+pin: true
 ---
 
 ## Summary
