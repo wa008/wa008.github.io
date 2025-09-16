@@ -1,20 +1,20 @@
 ---
-title: Weekly-#19 Full Cross Entropy Loss of Triton
+title: Cross Entropy Loss of Triton
 tags: [Weekly]
 comments: true
 math: true
 pin: true
 ---
 
-## Product
-### Full Cross Entropy
-**Realising of fast cross entropy**
+## Cross Entropy
+
+### idea of fast cross entropy
 
 Based on previous knowledge on fast cross-entropy, realizing it by triton doesn't spend too much.
 
 There are only 1e-7 difference between Pytorch and my Triton kernel, But the speed is significantly lower.
 
-**Liger-Kernel**
+### Liger-Kernel
 
 Getting advise on gpumode discord group, I can read how it realized in other great Triton kernel repository. 
 
@@ -27,6 +27,7 @@ Pytorch is 1000x faster than Triton kernel which I have ever tried, it's unreaso
 With help of friend in gpumode discord server, I found the environment variable is the root reason of self-made triton kernel. After realise the backward, the result as below picture show: 
 
 ![Speed test](/images/2025/0106-01.png){: width="800"}
+
 
 code: 
 
@@ -83,29 +84,3 @@ def triton_loss(input: torch.Tensor, target: torch.Tensor, bm = 1, bn = 256):
     loss_kernel[grid_loss](input, target, output, M = input.shape[0], N = input.shape[1], BLOCK_SIZE_N = bn)
     return output
 ```
-
-## Thought
-### Importance of positive feedback
-The most important of habit is to insist on, But I already didn't update my Youtube channel two weeks. I'm not happy when I record Youtube video, more specific, there is not direct positive feedback for that. Mayba the uncertainty is part of the reason, I don't know if I need to use the leetcode in the next several months. 
-
-To sum up, positive feedback is important to keep a good habit. Table tennis is another good example, I spend more money and time on table tennis recently, becuase I can get positive feeback. On the one hand, I can loss my weight and feel more healthy, on the other hand, I enjoy the social feeling when playing. 
-
-I want to try other habit which can help me to improve my english ability. 
-+ Listen Enlish podcast, one podcast and listen it at least three times one week, I will get positive feedback if I can understand and obtain contents thought podcast.
-+ Read and comment on lobste.rs and HackerNews, increase 20/10 Kama. 
-+ Books, one-fourth of one book. 
-
-## Summary
-Importance of feedback
-
-## This week
-- [x] Triton: cross entropy loss
-- [ ] Google translate extension
-- [ ] Youtube: 
-- [x] Exercise: 4
-
-## Next week
-- [ ] Triton
-- [ ] Google translate extension
-- [ ] English
-- [ ] Exercise
