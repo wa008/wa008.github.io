@@ -5,8 +5,10 @@ order: 6
 ---
 
 ## Profile
-- Machine learning engineer for five years
-- LLM acceleration, LLM fine-tune
+- Machine Learning Engineer in fraud-detection for ads, user-growth, Trust & Safety for five years
+- LLM applied product
+- LLM kernel acceleration
+- LLM fine-tune
 - Email: zphu1024[at]gmail.com
 
 
