@@ -7,10 +7,11 @@ pin: true
 ---
 
 Personal experience
-- care the changing of loss/reward and test dataste performance, ensure they change with same trend, otherwise, reward hacking / invalid loss function appear
-- adjust learning-rate and regularization penalty by changing of loss with training steps
-- verfy idea with pure comparing experiment (scientific control)
+- ensure the loss/reward curve and performance on test dataset change with same trend, otherwise reward hacking / overfitting appear
+- adjust learning-rate and regularization penalty by observing loss curve with training steps
+- verify idea with pure comparing experiment (scientific control)
 - retry same experiment to exclude influence of random
 - only change hyper-parameter when training process doesn't work well
-- make llm output process before output final answer
-- try to process regulazation by code rather than in prompt as much as possible
+- make LLM output intermediate reasoning process before output final answer
+- For specific task, put as much logit as in rule rather than in prompt if possible
+

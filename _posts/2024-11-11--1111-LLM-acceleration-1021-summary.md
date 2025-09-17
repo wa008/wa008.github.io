@@ -16,8 +16,6 @@ There are two main methods to acclerate LLM and another tricky methods
 + block: compute matrix with block
 + trick: update model structure or change training process
 
-already read papers: 13
-
 ### Reference
 + [xformers](https://github.com/facebookresearch/xformers): collection of optimized transformers
 + [unsloth](https://unsloth.ai/blog/mistral-benchmark)
