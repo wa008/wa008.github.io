@@ -13,10 +13,10 @@ Claude-code is the first CLI-typed coding assistant, after Gemini-CLI join the w
 
 I think the step from Copilot-typed to CLI-typed(vibe coding) is too big to be workable, LLM cannot transfer an idea or demand into product by himself. 
 
-### future of CLI-typed tool
 The main disadvantages of CLI-typed (vibe coding) is that LLM cannot solve complex projects because it's not good at designing the solution. but developers are good at that, especially for junior developers. It's not necessary to use LLM to solve all tasks. 
 
-So, I think there will a better product which can provide more space for junior developers to express their thought of design, and also provide more control space for users, some users really like the feeling of controlling and enjoy that, this also can help LLM program better code because the instrction is more clear. 
+### Better tool
+A better product should provide more space for junior developers to express their thought of design, and also provide more control space for users, some users really like the feeling of controlling and enjoy that, this also can help LLM program better code because the instrction is more clear. 
 
 More specifically, I think develpers can design their project in any depth from generality to details by the new ideal tool, and LLM can program code based on the design from developers. 
 
