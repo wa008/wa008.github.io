@@ -18,4 +18,4 @@ pin: true
 
 
 ## Availability
-I use free google translate API for translation service, free [dictionaryapi](https://dictionaryapi.dev/) for dictionary service. This project cost zero for me, so this extension can be available for a long time without extra cost investment. 
+I use free google translate API for translation service, free [dictionaryapi](https://dictionaryapi.dev/) for dictionary service. This project cost zero for me, so this extension can be available for a long time without extra cost investment.
