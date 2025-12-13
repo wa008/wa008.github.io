@@ -2,7 +2,7 @@
 title: PopTranslate
 tags: [PopTranslate, open source]
 comments: true
-pin: true
+pin: false
 ---
 
 ## Introduction

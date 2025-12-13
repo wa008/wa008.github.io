@@ -20,3 +20,4 @@ order: 5
 - [news-audio (2025.5)](https://github.com/wa008/news-audio): Host translated news audio from english magizine
 - [hf-ms-transfer (2025.6)](https://github.com/wa008/hf-ms-transfer): A tool to transfer huggingface models/datasets to Model Scope
 - [projects-to-contribute (2025.8)](https://github.com/wa008/projects-to-contribute): Open source projects are needed to be contributed
+- [Carleton University DDL ALERT (2025.12)](https://github.com/wa008/ddl-alert): Send notification when a new DDL in Carleton University is coming.

@@ -2,7 +2,7 @@
 title: Better idea between Copilot-typed and CLI-typed assistant
 tags: [LLM, Gemini-CLI, Claude-code, Copilot, code-assistant]
 comments: true
-pin: true
+pin: false
 ---
 
 ### Copilot-typed
