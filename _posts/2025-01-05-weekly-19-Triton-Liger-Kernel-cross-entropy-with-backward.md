@@ -3,7 +3,7 @@ title: Cross Entropy Loss of Triton
 tags: [Weekly]
 comments: true
 math: true
-pin: true
+pin: false
 ---
 
 ## Cross Entropy
