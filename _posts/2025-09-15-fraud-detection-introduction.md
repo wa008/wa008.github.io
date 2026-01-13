@@ -3,7 +3,7 @@ title: Introduction of Fraud detection
 tags: [fraud detection]
 categories: [fraud, working]
 comments: true
-pin: true
+pin: false
 ---
 
 In short, Target of fraud detection is to detect fradulent traffic and filtering or block them. What mekes this interesting and difficult are what we are detecting are human, it might be as hard as you can imagine to defense with huamn.
