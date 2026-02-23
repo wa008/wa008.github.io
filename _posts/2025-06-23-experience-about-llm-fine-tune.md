@@ -3,7 +3,7 @@ title: LLM Post-Training experience
 tags: [LLM, find-tune, prompt]
 categories: [LLM]
 comments: true
-pin: true
+pin: false
 ---
 
 ## Prompt
