@@ -9,6 +9,7 @@ order: 5
 - LLM applied product
 - LLM kernel acceleration
 - LLM fine-tune
+- Vibe coder
 - Email: zphu1024[at]gmail.com
 
 
@@ -22,4 +23,4 @@ order: 5
 - [projects-to-contribute (2025.8)](https://github.com/wa008/projects-to-contribute): Open source projects are needed to be contributed
 - [Carleton University DDL ALERT (2025.12)](https://github.com/wa008/ddl-alert): Send notification when a new DDL in Carleton University is coming.
 - [Hacker News to Kindle (2025.12)](https://github.com/wa008/hn2kindle): Send Hacker News posts to kindle daily
-- [ui-audit-mcp (2026.2)](https://github.com/wa008/ui-audit-mcp)
+- [ui-audit-mcp (2026.2)](https://github.com/wa008/ui-audit-mcp): An ui audit mcp
