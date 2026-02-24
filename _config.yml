@@ -39,7 +39,7 @@ social:
   email: zphu1024@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/Pandas_Bing # change to your Twitter homepage
+    # - https://twitter.com/Pandas_Bing # change to your Twitter homepage
     - https://github.com/wa008 # change to your GitHub homepage
     - https://youtube.com/@Wanderer1024/videos
     # Uncomment below to add more social links
