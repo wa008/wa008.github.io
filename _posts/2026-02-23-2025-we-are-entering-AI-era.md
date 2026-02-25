@@ -36,3 +36,5 @@ How much we are willing to pay for the creator of application if its cost is low
 If we copy currently great app with low cost, how many users will chose the low-price one? it's hard to say. 
 
 What about the app that need backend? it depends on what data the backend has, copyright data or just store user's data. 
+
+The worlding is change faster than what we thought, keep looking ahead
