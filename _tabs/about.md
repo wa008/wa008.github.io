@@ -5,11 +5,8 @@ order: 5
 ---
 
 ## Profile
-- Machine Learning Engineer in fraud-detection for ads, user-growth, Trust & Safety for five years
-- LLM applied product
-- LLM kernel acceleration
-- LLM fine-tune
-- Vibe coder
+- Machine Learning Engineer
+- vibe coder
 - Email: zphu1024[at]gmail.com
 
 

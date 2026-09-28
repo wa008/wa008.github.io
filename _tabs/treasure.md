@@ -5,24 +5,18 @@ icon: "fa-solid fa-user-group"
 order: 4
 ---
 
-## Personal blog
+## Resources
 + English
+    + [Hacker News](https://news.ycombinator.com/news)
+    + [Lobste.rs](https://lobste.rs/)
     + [hackerfactor](https://hackerfactor.com/index.php)
     + [null program](https://nullprogram.com/)
 + 中文
+    + [Tombkeeper](https://weibo.com/u/6827625527)
+    + [Blog Finder](https://bf.zzxworld.com/)
     + [kexue.fm](https://kexue.fm/)
     + [王登科](https://greatdk.com/)
-    + [asyncx](https://blog.asyncx.top/zh/blog/)
-
-
-## To read
-+ Thing explainer, by Randall Munroe
-+ Poor Charlie's Almanack
-+ Zero to One: Notes on Startups, or How to Build the Future
-+ Seeking Wisdom: From Darwin to Munger
-+ The Essays of Warren Buffett: Lessons for Corporate America
-+ Principles: Life and Work
-
+    + [v2ex](https://www.v2ex.com/)
 
 ## Best startup examples
 + [YC](https://www.ycombinator.com/companies)
