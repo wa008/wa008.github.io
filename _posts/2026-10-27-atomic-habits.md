@@ -11,4 +11,4 @@ I realize my strong express and interaction passion recently. It's like some kin
 
 Another half of solution I think should build on english. Oh, I really realize my english need to be improved because of the enlight test that just happened. My plan was to listen 2-hour english podcast everyday, which is a simple and effective plan. 
 
-In terms of gathering information, real-time news are also necessary except books. I am happy I finally explored a good way to gather the high-quality information, which is built just for myself. I can use both bookmarks to manager different information source. Bookmarks are much useful that I thought as long as I start to manage it consciously. 
+In terms of gathering information, real-time news are also necessary except books. I am happy I finally explored a good way to gather the high-quality information, which is built just for myself. I can use both bookmarks to manager different information source. Bookmarks are much useful that I thought as long as I start to manage it consciously. With it, I should be able to prevent myself scorlling the twitter or short video platforms endlessly.
